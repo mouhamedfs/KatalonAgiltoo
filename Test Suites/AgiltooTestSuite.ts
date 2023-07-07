@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>AgiltooTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3298be3c-4a5f-4c37-be3f-4b0162dc067d</testSuiteGuid>
+   <testCaseLink>
+      <guid>9900e9ef-77db-4b1a-8eb3-b459c48aeaae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Get_all_Products</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe506b0b-2901-4694-a6c0-4ba71a6abe20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Order Creation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>99f8cbd3-b7e1-40e2-aa71-4710bda6571d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Users/UserData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>99f8cbd3-b7e1-40e2-aa71-4710bda6571d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>3e4f3b11-0c1f-43cf-bb66-a465e164669a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>99f8cbd3-b7e1-40e2-aa71-4710bda6571d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>9ca513f9-15d9-4889-948c-b45b6b031c1b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

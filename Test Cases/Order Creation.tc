@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee5b2f95-edc1-46aa-a305-bdc8c50d087c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f1676cac-1f9f-4448-8d97-bba952248f99</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Users/UserData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f1676cac-1f9f-4448-8d97-bba952248f99</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>3e4f3b11-0c1f-43cf-bb66-a465e164669a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f1676cac-1f9f-4448-8d97-bba952248f99</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>9ca513f9-15d9-4889-948c-b45b6b031c1b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e4f3b11-0c1f-43cf-bb66-a465e164669a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9ca513f9-15d9-4889-948c-b45b6b031c1b</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+</TestCaseEntity>
